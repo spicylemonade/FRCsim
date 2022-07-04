@@ -1,4 +1,7 @@
 # FRCsim
+
+#### chesapeak team 8197-AirTigers
+
 frc 2022 simulation, with editable code and objects. 
 
 Made with Godot (mono version required with .Net sdk aswell), all scripts are written in c# for similarity with java
@@ -61,6 +64,3 @@ https://haxegodot.github.io/godot/
 https://haxegodot.github.io/godot/godot/JoystickList.html#Button0
 
 and more :)
-
-chesapeak team 8197-Airtigers
-
