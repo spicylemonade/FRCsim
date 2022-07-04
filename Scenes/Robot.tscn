@@ -3,7 +3,7 @@
 [ext_resource path="res://Robot.cs" type="Script" id=1]
 [ext_resource path="res://customScripts/Shooter.cs" type="Script" id=2]
 [ext_resource path="res://customScripts/Feeder.cs" type="Script" id=3]
-[ext_resource path="res://RobotMesh.tres" type="ArrayMesh" id=4]
+[ext_resource path="res://Scenes/RobotMesh.tres" type="ArrayMesh" id=4]
 [ext_resource path="res://Scenes/ClimberPart.tscn" type="PackedScene" id=5]
 
 [sub_resource type="BoxShape" id=1]
