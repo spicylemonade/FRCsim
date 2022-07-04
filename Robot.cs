@@ -9,6 +9,8 @@ public class Robot : KinematicBody
 	TalonSRX shooter;
 	TalonSRX climber;
 	
+	float speed = 1f;
+	
 	
 	
 	public override void _Ready() //the same as robot init
@@ -24,7 +26,7 @@ public class Robot : KinematicBody
 		
 	MotorControllerGroup _driveLeft = new MotorControllerGroup(_leftBack, _leftFront);
 	
-	feeder = new TalonSRX(2, this);// for clarity, 3 is the object in which a motor effects
+	feeder = new TalonSRX(2, this);// for clarity, 2 is the object in which a motor effects
 	shooter = new TalonSRX(3, this);
 	climber = new TalonSRX(4, this);
 	//check scene tree
@@ -50,9 +52,21 @@ public class Robot : KinematicBody
 	}
 	if(ps4.getR1Button()){
 		climber.Set(-4.0f);
-	}		
-	//_diffDrive.tankDrive(ps4.getLeftY(),ps4.getRightY());
-	_diffDrive.arcadeDrive(ps4.getLeftY(),ps4.getRightX());
+	}	
+	
+	float arg1 = ps4.getLeftY();
+	float arg2 =ps4.getRightX();
+	if (arg1 < 0.1 && arg1 > -0.1){
+		arg1 = 0;
+	}
+	//if (ps4.getRightY() < 0.1 && ps4.getRightY() > -0.1){
+	//	arg1 = 0;
+	//}
+	if (arg2 < 0.1 && arg2 > -0.1){
+		arg2 = 0;
+	}// to prevent controller drift
+	//_diffDrive.tankDrive(arg1*speed, arg2*speed);
+	_diffDrive.arcadeDrive(arg1*speed,arg2*speed);
 
   }
 }

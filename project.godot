@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="FRC_Tutorial"
-run/main_scene="res://World.tscn"
+run/main_scene="res://Scenes/World.tscn"
 boot_splash/image="res://Icon.png"
 boot_splash/use_filter=false
 boot_splash/bg_color=Color( 0.0823529, 0.0980392, 0.133333, 1 )
