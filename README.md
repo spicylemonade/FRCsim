@@ -36,7 +36,9 @@ a function called "move_object" which can do whatever you require it to do
 
 add them in the "customScripts" Directory
 
-ex. in robot a new object of talonsrx is crated called feeder, at channel 2 (channel 2 is the 2nd object under the robot scene)![image](https://user-images.githubusercontent.com/84095175/177078370-5212f2ec-3ccc-44e3-8bdd-2b90aee7601e.png)
+ex. in robot a new object of talonsrx is crated called feeder, at channel 2 (channel 2 is the 2nd object under the robot scene)!
+
+[image](https://user-images.githubusercontent.com/84095175/177078370-5212f2ec-3ccc-44e3-8bdd-2b90aee7601e.png)
 
 when called "feeder.set({speed})" then it calls the move_object function local to feeder which does its task, being deleting the ball, while shooters task is spitting it out
 
