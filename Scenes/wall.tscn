@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=2]
+
+[sub_resource type="PhysicsMaterial" id=14]
+rough = true
+bounce = 0.5
+
+[sub_resource type="BoxShape" id=4]
+
+[sub_resource type="SpatialMaterial" id=5]
+albedo_color = Color( 0.0666667, 0.0627451, 0.0705882, 1 )
+
+[sub_resource type="CubeMesh" id=2]
+material = SubResource( 5 )
+
+[node name="wall" type="StaticBody"]
+transform = Transform( 0.265601, 0, -0.998588, 0, 5, 0, 4.99294, 0, 0.0531202, 18.2066, 3.5, -0.968665 )
+collision_mask = 3
+physics_material_override = SubResource( 14 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+shape = SubResource( 4 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+mesh = SubResource( 2 )
+material/0 = null
