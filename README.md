@@ -15,7 +15,11 @@ The names for each class and method are the same as the ones in the wpilib libra
 
 Input can be any generic gamepad controller
 
-#### to run:
+#### to run( without changing code):
+
+download the build for your corresponding os
+
+#### to run (via editor):
 1. create a new folder 
 2. go inside the folder and paste these files
 3. open up godot and look for import, traverse your way into the folder you created and click on the "project.godot" file
