@@ -9,7 +9,7 @@ Made with Godot (mono version required with .Net SDK as well), all scripts are w
 
 ### Goals:
 
-* To create a modular environment to teach and test FRC robotics code. at the same time, we are keeping it similar to how the Actual robot code would look like.
+* To create a modular environment to teach and test FRC robotics code. at the same time, we are keeping it similar to how the actual robot code would look like.
 
 * Allow any team to modify robot to accommodate their design
 
