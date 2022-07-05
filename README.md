@@ -7,6 +7,8 @@ https://user-images.githubusercontent.com/84095175/177384616-466215d0-5dc4-4fcc-
 
 Made with Godot (mono version required with .Net SDK as well), all scripts are written in C# for similarity with Java.
 
+https://godotengine.org/download/windows Godot Mono link.
+
 ### Goals:
 
 * To create a modular environment to teach and test FRC robotics code. at the same time, we are keeping it similar to how the actual robot code would look like.
