@@ -2,6 +2,9 @@
 
 #### chesapeak team 8197-AirTigers
 
+https://user-images.githubusercontent.com/84095175/177384616-466215d0-5dc4-4fcc-8b68-89d014027fac.mp4
+
+
 frc 2022 simulation, with editable code and objects. 
 
 Made with Godot (mono version required with .Net sdk aswell), all scripts are written in c# for similarity with java
